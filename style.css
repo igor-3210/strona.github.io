@@ -1,0 +1,329 @@
+body
+{
+background-color: rgb(187, 225, 236);
+}
+
+header
+{
+    width: 100%;
+    height: 70px;
+    float: left;
+    background-color: rgb(69, 242, 242);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(74, 180, 180);
+    border-radius: 20px;
+    
+}
+
+.main
+{
+    width: 69%;
+    background-color: rgb(6, 116, 116);
+    float: left;
+    min-height: 650px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.panel
+{
+    width: 30%;
+    background-color: rgb(69, 242, 242);
+    float: right;
+    height: 140px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.panel p, dl
+{
+    padding-left: 30px;
+}
+
+footer
+{
+    width: 100%;
+    background-color: rgb(69, 242, 242);
+    float: left;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+button
+{
+    float: left;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 10px 10px;
+
+}
+
+.menu button.active 
+{
+    background-color: rgb(138, 184, 249); 
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+video
+{
+    padding-bottom: 10px;
+}
+
+audio
+{
+    float: left;
+    padding-bottom: 10px;
+}
+
+img
+{
+    padding: 5px;
+    background-color: aliceblue;
+    border: 2px solid black;    
+}
+
+.img-zoom 
+{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.img-zoom.fullscreen 
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1000;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.gy article
+{
+    background-color: rgb(179, 249, 249);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    margin: 0 auto; 
+    display: block; 
+    border: 2px solid black;
+}
+
+.gy .main h2
+{
+    background-color: rgb(179, 249, 249);
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 40%;
+    margin: 0 auto; 
+    display: block; 
+    text-align: center; 
+}
+
+.ao .main h2
+{
+    background-color: rgb(179, 249, 249);
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 40%;
+    margin: 0 auto; 
+    display: block; 
+    text-align: center; 
+}
+
+
+.ao td, .ao th
+{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(179, 249, 249);
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.ao table
+{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    table-layout: auto;
+}
+
+.ao .kon
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fy td, .fy th
+{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(179, 249, 249);
+}
+
+.fy .fy_con
+{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.fy .main h2
+{
+    background-color: rgb(179, 249, 249);
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 40%;
+    text-align: center;  
+    margin: 0 auto; /* Automatyczne centrowanie */
+    
+}
+
+
+.za .main h2
+{
+    background-color: rgb(179, 249, 249);
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 40%;
+    margin: 0 auto; 
+    display: block; 
+    text-align: center;
+    
+}
+
+.zd
+{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 5px; 
+    background-color: rgb(179, 249, 249);
+    border-radius: 20px;
+    border: 2px solid black;
+    height: 350px;
+    margin: 7px;
+}
+
+.rs .main h2
+{
+    background-color: rgb(179, 249, 249);
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 40%;
+    margin: 0 auto; 
+    display: block; 
+    text-align: center; 
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .container 
+    {
+        flex-direction: column;
+    }
+
+    .panel 
+    {
+        width: 100%;
+        float: none;
+        text-align: center;
+        height: auto;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    .main 
+    {
+        width: 100%;
+        float: none;
+    }
+
+    .menu 
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    button 
+    {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    img 
+    {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .zd 
+    {
+        height: auto;
+    }
+
+    .ao .main table 
+    {
+        display: block;
+        overflow-x: auto; 
+        white-space: nowrap;
+    }
+
+    .ao .main tr 
+    {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around;
+    }
+
+    .ao .main td 
+    {
+        flex: 1; 
+        min-width: 200px; 
+    }
+    
+    .ao table td p 
+    {
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+

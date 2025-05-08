@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="ao">
+    <header>
+        <h2>Projekt - Techniki multimedialne</h2>
+    </header>   
+    <div class="menu">
+        <p><button onclick="document.location='index.html'">Strona główna</button></p>
+        <p><button class="active" onclick="document.location='ao.html'">Audio</button></p>
+        <p><button onclick="document.location='fy.html'">Filmy</button></p>
+        <p><button onclick="document.location='za.html'">Zdjęcia</button></p>
+        <p><button onclick="document.location='rs.html'">RSS</button></p>
+    </div>
+    <div class="kon">
+      <div class="main">
+            
+          <h2>Audio</h2>
+
+            <br>
+            <table>
+                <tr>
+                  <th>Scieżka 1</th>
+                  <th>Scieżka 2</th>
+                  <th>Scieżka 3</th>
+                  
+                </tr>
+                <tr>
+                  <td>
+                    <audio controls>
+                    <source src="media/dzwiek1.mp3" type="audio/mpeg">
+                    </audio>
+                    <p>Tytuł publikacji: "Wyobrażenie studiów"</p>
+                    <p>Autor publikacji: Igor Stawiński</p>
+                    <p>Data publikacji: 08.05.2025 r.</p>
+                    <p>Zajmowane zasoby:</p>
+                    <p>Wykorzystane materiały (uznanie autorstwa):<br>Własne przemyślenia i doświadczenia</p>
+                    <p><a href="media/dzwiek1.mp3" download>Pobierz audio</a></p>
+                  </td>
+                  <td>
+                    <audio controls>
+                        <source src="media/dzwiek2.mp3" type="audio/mpeg"> 
+                    </audio>
+                    <p>Tytuł publikacji: <br>"Teraźniejsze wnoski studyjne"</p>
+                    <p>Autor publikacji: Igor Stawiński</p>
+                    <p>Data publikacji: 08.05.2025 r.</p>
+                    <p>Zajmowane zasoby:</p>
+                    <p>Wykorzystane materiały (uznanie autorstwa):<br>Własne przemyślenia i doświadczenia</p>
+                    <p><a href="media/dzwiek2.mp3" download>Pobierz audio</a></p>
+                  </td>
+                  <td>
+                    <audio controls>
+                        <source src="media/dzwiek3.mp3" type="audio/mpeg">
+                    </audio>
+                    <p>Tytuł publikacji: "Pytania i odpowiedzi"</p>
+                    <p>Autor publikacji: Igor Stawiński</p>
+                    <p>Data publikacji: 08.05.2025 r.</p>
+                    <p>Zajmowane zasoby:</p>
+                    <p>Wykorzystane materiały (uznanie autorstwa):<br>Własne przemyślenia i doświadczenia</p>
+                    <p><a href="media/dzwiek3.mp3" download>Pobierz audio</a></p>
+                  </td>
+                </tr>
+            </table>
+            
+        </div>
+        <div class="panel">
+            <p>Dane autora:</p>
+            <dl>
+                <dt>Imie i nazwisko:</dt>
+                <dd>- Igor Stawiński</dd>
+                <dt>Grupa dziekańska:</dt>
+                <dd>- TI IV/1</dd>
+            </dl>
+      </div>
+  </div>
+    <footer>Stopka</footer>
+</body>
+</html>
