@@ -1,0 +1,33 @@
+<rss version="2.0">
+<channel>
+<title>Kanał RSS dla materiałów audio</title>
+<link>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/</link>
+<description>Moja motywacja podjęcia studiów na kierunku teleinformatyka</description>
+<language>pl-pl</language>
+<copyright>Copyright 2025 by Igor Stawiński</copyright>
+<item>
+<title>Audio 1</title>
+<pubDate>Thu, 8 May 2025 12:00:00 GMT</pubDate>
+<link>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/ao.html</link>
+<description>Własne przemyślenia i doświadczenia.</description>
+<guid>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/audio/dzwiek1.mp3</guid>
+<enclosure url="http://bsd.iele.polsl.pl/~istawinski/projekt-tm/audio/dzwiek1.mp3" length="443926" type="audio/mpeg"/>
+</item>
+<item>
+<title>Audio 2</title>
+<pubDate>Thu, 8 May 2025 12:00:00 GMT</pubDate>
+<link>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/ao.html</link>
+<description>Własne przemyślenia i doświadczenia.</description>
+<guid>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/audio/dzwiek2.mp3</guid>
+<enclosure url="http://bsd.iele.polsl.pl/~istawinski/projekt-tm/audio/dzwiek2.mp3" length="443926" type="audio/mpeg"/>
+</item>
+<item>
+<title>Audio 3</title>
+<pubDate>Thu, 8 May 2025 12:00:00 GMT</pubDate>
+<link>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/ao.html</link>
+<description>Własne przemyślenia i doświadczenia.</description>
+<guid>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/audio/dzwiek3.mp3</guid>
+<enclosure url="http://bsd.iele.polsl.pl/~istawinski/projekt-tm/audio/dzwiek3.mp3" length="443926" type="audio/mpeg"/>
+</item>
+</channel>
+</rss>

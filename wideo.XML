@@ -1,0 +1,33 @@
+<rss version="2.0">
+<channel>
+<title>Kanał RSS dla materiałów wideo</title>
+<link>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/</link>
+<description>Moja motywacja podjęcia studiów na kierunku teleinformatyka</description>
+<language>pl-pl</language>
+<copyright>Copyright 2025 by Igor Stawiński</copyright>
+<item>
+<title>Wideo 1</title>
+<pubDate>Thu, 8 May 2025 12:00:00 GMT</pubDate>
+<link>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/fy.html</link>
+<description>Własne przemyślenia i doświadczenia.</description>
+<guid>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/media/Klip1.mp4</guid>
+<enclosure url="http://bsd.iele.polsl.pl/~istawinski/projekt-tm/media/Klip1.mp4" length="1056768" type="video/mpeg"/>
+</item>
+<item>
+<title>Wideo 2</title>
+<pubDate>Thu, 8 May 2025 12:00:00 GMT</pubDate>
+<link>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/fy.html</link>
+<description>Własne przemyślenia i doświadczenia.</description>
+<guid>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/media/Klip2.mp4</guid>
+<enclosure url="http://bsd.iele.polsl.pl/~istawinski/projekt-tm/media/Klip2.mp4" length="1056768" type="video/mpeg"/>
+</item>
+<item>
+<title>Wideo 3</title>
+<pubDate>Thu, 8 May 2025 12:00:00 GMT</pubDate>
+<link>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/fy.html</link>
+<description>Własne przemyślenia i doświadczenia.</description>
+<guid>http://bsd.iele.polsl.pl/~istawinski/projekt-tm/media/Klip3.mp4</guid>
+<enclosure url="http://bsd.iele.polsl.pl/~istawinski/projekt-tm/media/Klip3.mp4" length="1056768" type="video/mpeg"/>
+</item>
+</channel>
+</rss>
